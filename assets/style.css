@@ -1,0 +1,14 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    background-color: #ffffff;
+    box-sizing: content-box;  
+    width: 100%;
+    height: auto;
+    padding: 30px;  
+    border: 10px solid #dddddd; 
+  }
+  .h1{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: #4aaaa5;
+  }
