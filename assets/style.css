@@ -1,6 +1,13 @@
-.container {
+html, body {
+    height: 100%;
+    width: 980px;
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/full-bloom.png);
+}
+    .container {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
     background-color: #ffffff;
     box-sizing: content-box;  
     width: 100%;
@@ -8,7 +15,27 @@
     padding: 30px;  
     border: 10px solid #dddddd; 
   }
+  .navbar-brand {
+    background-color: #4aaaa5;
+  }
   .h1{
       font-family: Georgia, 'Times New Roman', Times, serif;
       color: #4aaaa5;
   }
+  .btn-primary, .btn-primary:hover{
+    
+    background-color: #4aaaa5;
+  }
+  
+ .footer {
+   color: #ffffff;
+   display: flex;
+   flex-flow: row wrap;
+   text-align: center;
+   align-content: center;
+   border-top: #4aaaa5 solid;
+   background-color: #666666;
+   
+ }
+  
+ 
