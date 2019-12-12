@@ -5,6 +5,7 @@ html, body {
 }
     .container {
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
     display: flex;
     flex-flow: row wrap;
     flex-wrap: wrap;
@@ -12,8 +13,9 @@ html, body {
     box-sizing: content-box;  
     width: 100%;
     height: auto;
-    padding: 30px;  
-    border: 10px solid #dddddd; 
+    margin: 60px;
+    padding: 40px;  
+    border: 5px solid #dddddd; 
   }
   .navbar-brand {
     background-color: #4aaaa5;
@@ -33,7 +35,7 @@ html, body {
    flex-flow: row wrap;
    text-align: center;
    align-content: center;
-   border-top: #4aaaa5 solid;
+   border-top: #4aaaa5 8px solid;
    background-color: #666666;
    
  }
